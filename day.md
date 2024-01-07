@@ -16,4 +16,4 @@ This is what I did today:
 
 ---
 
-![Happy Birthday Ballons](depositphotos_4444972-stock-photo-happy-birthday-balloons-in-the.jpg)
+![Happy Birthday Ballons](images/depositphotos_4444972-stock-photo-happy-birthday-balloons-in-the.jpg)
