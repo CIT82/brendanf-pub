@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4 - Implement 3 HTML Elements</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <h1>HTML Elements</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Here are the Three HTML Elements used:</h2>
+            <ol class="elements">
+                <li>form</li>
+                <li>fieldset</li>
+                <li>button</li>
+            </ol>
+        </section>
+        <section>
+            <h2>Contact Me:</h2>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <p>
+                        <legend>Tell me about yourself:</legend><br>
+                        <label for="firstName">First Name:</label>
+                        <input type="text" name="firstName" id="firstName" placeholder="John" autocomplete="on" required
+                            autofocus><br>
+                    </p>
+                    <p>
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" name="lastName" id="lastName" placeholder="Doe" autocomplete="on"
+                            required><br>
+                    </p>
+                    <p>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" name="phone" id="phone" placeholder="5555555555"
+                            pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                    </p>
+                    <p>
+                        <label for="email">Email Address:</label>
+                        <input type="email" name="email" id="email" placeholder="Email" autocomplete="on" required >
+                    </p>  
+                </fieldset><br>
+                <fieldset>
+                    <legend>Tell me about yourself:</legend>
+                    <label for="message">Your Message:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10"
+                        placeholder="Type your message here"></textarea>
+                </fieldset><br>
+                <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
