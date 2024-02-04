@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 5 Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script defer scr="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section>
+        <h1>Radio Buttons</h1><br>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+                Default radio
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+                Default checked radio
+            </label>
+        </div>
+    </section><br>
+    <section>
+        <h2>How would I use Radio Buttons in my Webpage?</h2><br>
+        <p>I would use ratios in a form for a multiple choice selection of different answers to choose from. Only one answer can be selected at a time unlike checks that allow you to pick more than answer. If you pick a different answer then it will change your selection to that new answer. I used radios in this webpage for a selection of possible choices of different pets people might have. The downside to using radios for this is that you cannot pick more than one pet. The first option is check by default, which will be selected by default when the page when the page loads. The last option is disabled, so you cannot pick it (None of you are James Bond villians). But enjoy the Gif for the last option.</p>
+        <p>The bootstrap styles used for radios on this page have changed some defaults styles used by the browser for input and label elements. There are some other bootstrap default styles available, but are being used in this form. The radio buttons change with the icon style and color used. The font for the text under the label elements change as well. I am a little disappointed that I am not able to change the flex styling and the box model sytling to make the form look nicer. Either the bootstrap css extensions are not working or the bootstrap css variables are not available to use for these input and label element examples provided by them. I was able to change the opacity for the last options, (form-check-input-disabled-opacity) and (form-check-label-disabled-opacity) by disabling the opacity styles used for the disabled ratio input buttons.</p>
+    </section><br>
+    <section>
+        <h2>Radio Buttons in use:</h2><br>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <label>What do you have as pet at your home:</label>
+                <div>
+                    <input class="form-check-input" type="radio" id="dog" name="fav_pet" value="dog" checked>
+                    <label class="form-check-label" for="dog">Dog</label><br>
+                </div>
+                <div>
+                    <input class="form-check-input" type="radio" id="cat" name="fav_pet" value="cat">
+                    <label class="form-check-label" for="cat">Cat</label><br>
+                </div>
+                <div>
+                    <input class="form-check-input" type="radio" id="fish" name="fav_pet" value="fish">
+                    <label class="form-check-label" for="fish">Fish</label><br>
+                </div>
+                <div>
+                    <input class="form-check-input" type="radio" id="monkey" name="fav_pet" value="monkey">
+                    <label class="form-check-label" for="monkey">Monkey</label><br>
+                </div>
+                <div>
+                    <input class="form-check-input" type="radio" id="snake" name="fav_pet" value="snake">
+                    <label class="form-check-label" for="javascript">Snake</label><br>
+                </div>
+                <div>
+                    <input class="form-check-input" type="radio" id="crocodile" name="fav_pet" value="crocodile">
+                    <label class="form-check-label" for="crocodile">Crocodile</label><br>
+                </div>
+                <div>
+                    <input class="form-check-input" type="radio" id="tarantula" name="fav_pet" value="tarantula">
+                    <label class="form-check-label" for="tarantula">Tarantula</label><br>
+                </div>
+                <div>
+                    <input class="form-check-input" type="radio" id="lizard" name="fav_pet" value="lizard">
+                    <label class="form-check-label" for="lizard">Lizard</label><br>
+                </div>
+                <div>
+                    <input class="form-check-input" type="radio" id="dinosaur" name="fav_pet" value="dinosaur">
+                    <label class="form-check-label" for="dinosaur">Dinosaur</label><br>
+                </div>
+                <div>
+                    <input class="form-check-input-disabled-opacity" type="radio" id="laserhark" name="fav_pet" value="lasershark" disabled>
+                    <label class="form-check-label-disabled-opacity" for="lasershark">A Shark with a freaking laser beam on it's head</label>
+                    <div class="tenor-gif-embed" data-postid="5251668" data-share-method="host" data-aspect-ratio="2.39" data-width="25%"><a href="https://tenor.com/view/shark-laser-austinpowers-gif-5251668">Shark Laser GIF</a>from <a href="https://tenor.com/search/shark-gifs">Shark GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+                </div>
+            </fieldset>
+            <br>
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </section>
+</body>
+
+</html>
