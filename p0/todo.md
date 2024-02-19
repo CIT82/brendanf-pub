@@ -1,8 +1,8 @@
-- [ ] Update the title and meta information
-- [ ] Change the favicon and apple touch icon to my choice. brendanf-pub/p0/assets/img/favicon.png  and brendanf-pub/p0/assets/img/apple-touch-icon.png
+- [X] Update the title and meta information
+- [X] Change the favicon and apple touch icon to my choice. brendanf-pub/p0/assets/img/favicon.png  and brendanf-pub/p0/assets/img/apple-touch-icon.png
 - [ ] Remove glightbox link if not needed
-- [ ] Change the UpConstruction logo to a different logo in the header section
-- [ ] Change the navbar items to the html pages I will be using and remove any that are not needed like the dropdown menu
+- [X] Change the UpConstruction logo to a different logo in the header section
+- [X] Change the navbar items to the html pages I will be using and remove any that are not needed like the dropdown menu
 - [ ] Change the hero images and content in the hero section. brendanf-pub/p0/assets/img/hero-carousel/...
 - [ ] Remove the #get-started href since it is not needed
 - [ ] Remove the form in the first section under main, which will be in the contact.html page
@@ -13,4 +13,4 @@
 - [ ] Change images in the tab content (brendanf-pub/p0/assets/img/...) and remove the icons
 - [ ] update the filtered image gallery with different images that can be filtered by gallery. brendanf-pub/p0/assets/img/projects/...
 - [ ] Remove the Testimonials and blog sections as they will not be used.
-- [ ] Update the footer content and remove all of the links. Add link for sitemap.html page.
+- [X] Update the footer content and remove all of the links. Add link for sitemap.html page.
