@@ -3,14 +3,14 @@
 - [ ] Remove glightbox link if not needed
 - [X] Change the UpConstruction logo to a different logo in the header section
 - [X] Change the navbar items to the html pages I will be using and remove any that are not needed like the dropdown menu
-- [ ] Change the hero images and content in the hero section. brendanf-pub/p0/assets/img/hero-carousel/...
-- [ ] Remove the #get-started href since it is not needed
-- [ ] Remove the form in the first section under main, which will be in the contact.html page
-- [ ] Change the images and text in the card items. brendanf-pub/p0/assets/img/... 
-- [ ] Determine if the service items are needed or if the service section is needed
-- [ ] Determine if the Alt service icon boxes are needed or if the alt service section is needed
+- [X] Change the hero images and content in the hero section. brendanf-pub/p0/assets/img/hero-carousel/...
+- [X] Update the #get-started href to link to the contact.html
+- [X] Remove the form in the first section under main, which will be in the contact.html page
+- [X] Change the images and text in the card items. brendanf-pub/p0/assets/img/... 
+- [X] Determine if the service items are needed or if the service section is needed
+- [X] Determine if the Alt service icon boxes are needed or if the alt service section is needed
 - [ ] Change the nav tabs and tab content. 
 - [ ] Change images in the tab content (brendanf-pub/p0/assets/img/...) and remove the icons
 - [ ] update the filtered image gallery with different images that can be filtered by gallery. brendanf-pub/p0/assets/img/projects/...
-- [ ] Remove the Testimonials and blog sections as they will not be used.
+- [ ] Remove the Testimonials from index.html as they will not be used.
 - [X] Update the footer content and remove all of the links. Add link for sitemap.html page.
