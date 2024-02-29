@@ -1,6 +1,6 @@
 - [X] Update the title and meta information
 - [X] Change the favicon and apple touch icon to my choice. brendanf-pub/p0/assets/img/favicon.png  and brendanf-pub/p0/assets/img/apple-touch-icon.png
-- [ ] Remove glightbox link if not needed
+- [X] Remove glightbox, isotope-layout, purecounter, php-email-form, swiper, and fontawesome-free CSS and JS links if not needed on certain pages
 - [X] Change the UpConstruction logo to a different logo in the header section
 - [X] Change the navbar items to the html pages I will be using and remove any that are not needed like the dropdown menu
 - [X] Change the hero images and content in the hero section. brendanf-pub/p0/assets/img/hero-carousel/...
@@ -9,8 +9,8 @@
 - [X] Change the images and text in the card items. brendanf-pub/p0/assets/img/... 
 - [X] Determine if the service items are needed or if the service section is needed
 - [X] Determine if the Alt service icon boxes are needed or if the alt service section is needed
-- [ ] Change the nav tabs and tab content. 
-- [ ] Change images in the tab content (brendanf-pub/p0/assets/img/...) and remove the icons
-- [ ] update the filtered image gallery with different images that can be filtered by gallery. brendanf-pub/p0/assets/img/projects/...
-- [ ] Remove the Testimonials from index.html as they will not be used.
+- [X] Change the nav tabs and tab content. 
+- [X] Change images in the tab content (brendanf-pub/p0/assets/img/...) and remove the icons
+- [X] update the filtered image gallery with different images that can be filtered by gallery. brendanf-pub/p0/assets/img/projects/...
+- [X] Remove the Testimonials from index.html as they will not be used.
 - [X] Update the footer content and remove all of the links. Add link for sitemap.html page.
